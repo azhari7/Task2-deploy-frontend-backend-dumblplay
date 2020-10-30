@@ -31,6 +31,8 @@ INSTALASI DATABASE MYSQL 5.7
 - restart mysql 
 
 
+
+
 INSTALASI BACKEND DUMBPLAY
 - Instal ssh-key kemudian copy file id_rsa.pub pada github
 
@@ -50,6 +52,7 @@ INSTALASI BACKEND DUMBPLAY
 - konfigurasi config.js database dengan menyesuaikan user, password, database, host dan dialect pada development
 ![alt text](https://github.com/azhari7/Task2-deploy-frontend-backend-dumblplay/blob/main/Week%202/Aws-w2-16-config.jsdb.jpg)
 - ketikan perintah sequelize db:migrate
+
 ![alt text](https://github.com/azhari7/Task2-deploy-frontend-backend-dumblplay/blob/main/Week%202/Aws-w2-19-dbmigrate.jpg)
 - Deploy backend dengan pm2
 
