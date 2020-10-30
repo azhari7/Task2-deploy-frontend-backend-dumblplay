@@ -22,6 +22,7 @@ INSTALASI DATABASE MYSQL 5.7
 - update dan install mysql server 5.7 dengan sudo apt-get update -> sudo apt install mysql-server
 ![alt text](https://github.com/azhari7/Task2-deploy-frontend-backend-dumblplay/blob/main/Week%202/Aws-w2-08-install-database.jpg)
 - Membuat database bernama dumbplay
+
 ![alt text](https://github.com/azhari7/Task2-deploy-frontend-backend-dumblplay/blob/main/Week%202/Aws-w2-09-create-databse.jpg)
 - memberikan akses database dumbplay dari ip private backend instance
 ![alt text](https://github.com/azhari7/Task2-deploy-frontend-backend-dumblplay/blob/main/Week%202/Aws-w2-18-mysqlconfig.jpg)
@@ -32,10 +33,13 @@ INSTALASI DATABASE MYSQL 5.7
 
 INSTALASI BACKEND DUMBPLAY
 - Instal ssh-key kemudian copy file id_rsa.pub pada github
+
 ![alt text](https://github.com/azhari7/Task2-deploy-frontend-backend-dumblplay/blob/main/Week%202/Aws-w2-10-sshkey.jpg)
 - Clone git dumbplay 
+
 ![alt text](https://github.com/azhari7/Task2-deploy-frontend-backend-dumblplay/blob/main/Week%202/Aws-w2-11-gitclone.jpg)
 - tambah repo node v 10 
+
 ![alt text](https://github.com/azhari7/Task2-deploy-frontend-backend-dumblplay/blob/main/Week%202/Aws-w2-12-add%20repo%20node.jpg)
 - install nodejs dengan perintah sudo apt-get install -y nodejs
 ![alt text](https://github.com/azhari7/Task2-deploy-frontend-backend-dumblplay/blob/main/Week%202/Aws-w2-13-install%20node.jpg)
@@ -48,6 +52,7 @@ INSTALASI BACKEND DUMBPLAY
 - ketikan perintah sequelize db:migrate
 ![alt text](https://github.com/azhari7/Task2-deploy-frontend-backend-dumblplay/blob/main/Week%202/Aws-w2-19-dbmigrate.jpg)
 - Deploy backend dengan pm2
+
 ![alt text](https://github.com/azhari7/Task2-deploy-frontend-backend-dumblplay/blob/main/Week%202/Aws-w2-21-pm2%20exe.jpg)
 - Pada server reverse proxy buat konfigurasi api.azhari.instructype.com yang akan di redirect ke ip private backend port 5000
 ![alt text](https://github.com/azhari7/Task2-deploy-frontend-backend-dumblplay/blob/main/Week%202/Aws-w2-25-proxybackend.jpg)
@@ -59,6 +64,8 @@ INSTALASI BACKEND DUMBPLAY
 
 DEPLOY FRONTEND DUMBPLAY
 - Konfigurasi api.js pada folder frontend/src/config
+
 ![alt text](https://github.com/azhari7/Task2-deploy-frontend-backend-dumblplay/blob/main/Week%202/Aws-w2-23-frontentobackend.jpg)
 - Deploy frontend dengan pm2
+
 ![alt text](https://github.com/azhari7/Task2-deploy-frontend-backend-dumblplay/blob/main/Week%202/Aws-w2-24-frontenddeploy.jpg)
